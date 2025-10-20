@@ -1,0 +1,57 @@
+# Task 1: Running Python Script and Various Expressions in an Interactive Interpreter
+# Course Code: 10211CS213 / Python Programming
+# Name: [Your Name]
+# Date: 25.07.2025
+
+# -------------------------------
+# 1. Printing a message
+print("Welcome to Python Programming Lab - Task 1")
+
+# -------------------------------
+# 2. Arithmetic Expressions
+a = 10
+b = 3
+print("\nArithmetic Operations:")
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+print("Floor Division:", a // b)
+print("Modulus:", a % b)
+print("Exponent:", a ** b)
+
+# -------------------------------
+# 3. Relational / Comparison Expressions
+print("\nComparison Operations:")
+print("a > b:", a > b)
+print("a < b:", a < b)
+print("a == b:", a == b)
+print("a != b:", a != b)
+
+# -------------------------------
+# 4. Logical Expressions
+x, y = True, False
+print("\nLogical Operations:")
+print("x and y:", x and y)
+print("x or y:", x or y)
+print("not x:", not x)
+
+# -------------------------------
+# 5. String Expressions
+name = "Python"
+print("\nString Operations:")
+print("String:", name)
+print("Repetition:", name * 2)
+print("Concatenation:", name + " Programming")
+
+# -------------------------------
+# 6. Type Conversion Example
+num_str = "100"
+num_int = int(num_str)
+print("\nType Conversion:")
+print("String to Integer:", num_int + 20)
+
+# -------------------------------
+# 7. Simple Expression Evaluation
+expression = (a + b) * (a - b) / b
+print("\nExpression Result of (a + b) * (a - b) / b =", expression)
